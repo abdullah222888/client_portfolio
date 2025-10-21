@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
+
+:root {
+  --bg-color: #20211a;
+  --second-bg-color: #20211a;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
