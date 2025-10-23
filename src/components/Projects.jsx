@@ -14,8 +14,8 @@ import { motion } from "framer-motion";
 
 const ProjectCard = styled(Card)(({ theme }) => ({
   position: "relative",
-  width: "100%", // Full width of the container
-  maxWidth: "540px", // Maximum width for larger screens
+  width: "100%",
+  maxWidth: "540px",
   borderRadius: "10px",
   overflow: "hidden",
   borderColor: "#00ffee",
@@ -23,7 +23,7 @@ const ProjectCard = styled(Card)(({ theme }) => ({
   borderStyle: "solid",
   backgroundColor: theme.palette.background.paper,
   display: "flex",
-  flexDirection: "column", // Stack image and content vertically
+  flexDirection: "column",
   transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
   "&:hover": {
     transform: "scale(1.05)",
@@ -32,26 +32,26 @@ const ProjectCard = styled(Card)(({ theme }) => ({
 }));
 
 const ProjectImage = styled(CardMedia)({
-  height: "200px", // Adjust height to fit within the card
+  height: "200px",
   width: "100%",
-  objectFit: "cover", // Ensure the image covers the card area without distortion
+  objectFit: "cover",
 });
 
 const ProjectCardContent = styled(CardContent)(({ theme }) => ({
   padding: "1rem",
   backgroundColor: "rgba(0, 0, 0, 0.7)",
   color: "white",
-  opacity: 0, // Initially hidden
+  opacity: 0,
   transition: "opacity 0.3s ease-in-out",
   position: "absolute",
   bottom: 0,
   width: "100%",
-  height: "100%", // Ensure content covers the full card height
+  height: "100%",
   display: "flex",
   flexDirection: "column",
-  justifyContent: "flex-end", // Align content at the bottom
+  justifyContent: "flex-end",
   "&:hover": {
-    opacity: 1, // Show on hover
+    opacity: 1,
   },
 }));
 
@@ -68,25 +68,25 @@ const ProjectButton = styled(Button)(({ theme }) => ({
 const Projects = () => {
   const projectData = [
     {
-      image: "proj1.jpg",
-      name: "Exercises App",
+      image: "Stove Genie Logo.jpg",
+      name: "Stove Genie",
       description:
-        "A beginner-friendly fitness app providing diet plans, exercise videos, and personalized features like sleep and wake-up alarms to guide users in implementing chest exercises effectively..",
-      link: "https://www.figma.com/file/t6PR7Z384LRxcVQQuJALiD/Fitness-Mobile-App-UI-by-tMinus1-Design-(Community)?type=design&node-id=1403-17678&mode=design&t=neGw1oCcip9w7qLR-0",
+        "A Flutter app with an AI chatbot for recipe generation and a mini TV for live cooking channels — your smart kitchen companion.",
+      link: "https://www.figma.com/design/stove-genie",
     },
     {
-      image: "proj22.jpg",
-      name: "Booking App",
+      image: "s1.png",
+      name: "ReCellMart",
       description:
-        "A Flutter-based booking app for ear doctor appointments, featuring Google Maps integration to locate patients and doctors efficiently..",
-      link: "https://www.figma.com/design/1oINvOkTXftPCGqMGFjBx1/Booking-app?node-id=45-207&p=f&t=WcAFWEDQ5lHGFb4M-0",
+        "An e-commerce platform for premium pre-owned smartphones, offering verified iPhones, Samsung, and Pixel devices at great prices.",
+      link: "https://www.recellmart.com",
     },
     {
-      image: "proj3.jpg",
-      name: "Social Media Platform",
+      image: "main.png",
+      name: "Pannel News",
       description:
-        "A Flutter-based e-commerce app with integrated social media features, enabling follow/unfollow, likes, and messaging between users who mutually follow each other.",
-      link: "https://www.figma.com/file/I9wapLely5y8lxlZI7yjy7?type=design",
+        "A modern online news platform delivering accurate, unbiased, and timely coverage of politics, sports, and national affairs.",
+      link: "https://www.pannalnews.com",
     },
   ];
 

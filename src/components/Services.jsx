@@ -8,69 +8,70 @@ const Services = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      viewport={{ once: false, amount: 0.3 }} // Adjust amount to trigger earlier or later
+      viewport={{ once: false, amount: 0.3 }}
     >
       <section className="services" id="services">
         <h2 className="heading">Services</h2>
 
         <div className="services-container">
+          {/* PHP Developer */}
           <div className="service-box">
             <div className="service-info">
-              <h4>Desktop Application Development</h4>
+              <h4>PHP Development</h4>
               <p>
-                I’m a passionate desktop application developer with a strong
-                focus on building user-friendly and efficient software for
-                Windows platforms. Skilled in .NET frameworks like WinForms and
-                WPF, I create responsive, intuitive applications that solve
-                real-world problems. I prioritize clean, maintainable code and
-                continuously sharpen my skills with the latest tools and
-                technologies.
+                I’m an experienced PHP developer focused on building fast,
+                secure, and scalable web applications. With a strong command of
+                backend logic, APIs, and database integration, I create dynamic
+                and high-performing websites that deliver seamless user
+                experiences. I emphasize clean, maintainable code and follow
+                modern PHP practices to ensure efficient and future-ready
+                solutions.
               </p>
             </div>
           </div>
 
+          {/* WordPress Developer */}
           <div className="service-box">
             <div className="service-info">
-              <h4>Frontend Developer</h4>
+              <h4>WordPress Development</h4>
               <p>
-                As a frontend developer specializing in React Native, I build
-                visually appealing, high-performance mobile applications for
-                both Android and iOS. With a strong grasp of React Native
-                components, hooks, and best practices, I focus on delivering
-                seamless, intuitive user experiences. I prioritize clean,
-                maintainable code, responsive design, and cross-platform
-                consistency to create apps that are both functional and
-                user-friendly.
+                As a WordPress developer, I design and develop fully customized,
+                responsive, and SEO-friendly websites. From creating bespoke
+                themes and plugins to optimizing performance and security, I
+                ensure every site is visually appealing, functional, and easy to
+                manage. My goal is to turn creative ideas into professional
+                WordPress solutions that help businesses grow online.
               </p>
             </div>
           </div>
 
+          {/* Frontend Developer */}
           <div className="service-box">
             <div className="service-info">
-              <h4>Graphic Designer</h4>
+              <h4>Frontend Development</h4>
               <p>
-                As a graphic designer, I create visually compelling and
-                high-impact designs that enhance user engagement and brand
-                identity. I specialize in crafting dynamic layouts, eye-catching
-                visuals, and intuitive designs across digital platforms. With a
-                strong focus on creativity and detail, I deliver designs that
-                are not only aesthetically appealing but also strategically
-                aligned with the project’s goals.
+                I specialize in modern frontend development using React.js to
+                build responsive, fast, and interactive web interfaces. With a
+                strong focus on UI/UX, component-based architecture, and
+                performance optimization, I deliver visually stunning designs
+                that work seamlessly across all devices. My approach blends
+                clean code, design precision, and cutting-edge technologies for
+                an exceptional user experience.
               </p>
             </div>
           </div>
 
+          {/* Content Writing */}
           <div className="service-box">
             <div className="service-info">
-              <h4>Content Writer</h4>
+              <h4>Content Writing</h4>
               <p>
-                As a content writer, I craft clear, engaging, and impactful
-                content tailored to diverse audiences and platforms. With a
-                strong command of language and storytelling, I deliver
-                well-researched articles, blogs, and copy that inform, inspire,
-                and drive action. My focus is on producing high-quality content
-                that aligns with brand voice, enhances user engagement, and
-                meets strategic goals.
+                As a creative content writer, I craft engaging, informative, and
+                SEO-optimized content that connects with audiences and enhances
+                brand identity. From blogs and web copy to technical writing and
+                social media content, I focus on clarity, storytelling, and
+                audience engagement to help brands communicate their message
+                effectively.
               </p>
             </div>
           </div>

@@ -117,16 +117,19 @@ const Home = () => {
             experience building responsive and interactive web interfaces. I
             focus on clean code, performance, and user-friendly design to
             deliver high-quality user experiences. I have hands-on experience
-            with React hooks, component-based architecture, and modern UI
-            libraries. I'm also familiar with frontend development using the
-            .NET Framework for building dynamic interfaces. I thrive in
-            collaborative environments and am passionate about learning new
-            tools and technologies to stay current in frontend development.
+            with React Hooks, component-based architecture, and modern UI
+            libraries. In addition to React, I’m also proficient in PHP and
+            WordPress development, creating dynamic and customizable websites
+            with strong attention to functionality and performance. I’m familiar
+            with frontend development using the .NET Framework as well. I thrive
+            in collaborative environments and am passionate about learning new
+            tools and technologies to stay current in modern frontend
+            development.
           </Typography>
         </motion.div>
         <Box sx={{ display: "flex", gap: "1rem", marginTop: "1rem" }}>
           <motion.a
-            href="www.linkedin.com/in/m-abaidullah-zaid786"
+            href="https://linkedin.com/in/m-abaidullah-zaid786"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -170,7 +173,7 @@ const Home = () => {
           <Button
             variant="contained"
             color="primary"
-            href="/abaidresume.pdf"
+            href="/abaidresume copy.pdf"
             download="Abaid-Resume.pdf"
             sx={{
               backgroundColor: "black",
