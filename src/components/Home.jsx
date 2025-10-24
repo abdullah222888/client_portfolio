@@ -103,7 +103,7 @@ const Home = () => {
           >
             I'm a{" "}
             <strong style={{ color: "#00ffee" }} className="animate-text">
-              Front End Developer
+              Web Developer
             </strong>
           </Typography>
           <Typography
@@ -113,18 +113,20 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            I’m a skilled Frontend Developer specializing in React.js, with
-            experience building responsive and interactive web interfaces. I
-            focus on clean code, performance, and user-friendly design to
-            deliver high-quality user experiences. I have hands-on experience
-            with React Hooks, component-based architecture, and modern UI
-            libraries. In addition to React, I’m also proficient in PHP and
-            WordPress development, creating dynamic and customizable websites
-            with strong attention to functionality and performance. I’m familiar
-            with frontend development using the .NET Framework as well. I thrive
-            in collaborative environments and am passionate about learning new
-            tools and technologies to stay current in modern frontend
-            development.
+            I’m a passionate Web Developer specializing in building dynamic,
+            scalable, and visually engaging digital experiences. With strong
+            expertise in CMS platforms like WordPress, I craft custom templates,
+            plugins, and themes that deliver both functionality and aesthetic
+            appeal. Proficient in PHP, I ensure every project is optimized for
+            performance, security, and flexibility. Alongside CMS development, I
+            specialize in modern JavaScript frameworks including React.js,
+            Next.js, Express.js, and Node.js, creating seamless,
+            high-performance web applications with clean architecture and
+            responsive UI. I thrive on solving complex problems, enhancing user
+            experiences, and transforming ideas into powerful digital solutions.
+            Constantly evolving with new technologies, I aim to deliver
+            cutting-edge web solutions that drive results and elevate brands
+            online.
           </Typography>
         </motion.div>
         <Box sx={{ display: "flex", gap: "1rem", marginTop: "1rem" }}>
